@@ -1,0 +1,754 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 28px;
+}
+
+.apalah {
+    margin-top: 20px
+}
+
+.info2:hover {
+    transition: 0.30s ease-in-out;
+}
+
+.info3:hover {
+    transition: 0.30s ease-in-out;
+}
+
+.info4 {
+    transition: 0.30s ease-in-out;
+}
+
+.info5:hover {
+    opacity: 0.8;
+    transition: 0.15s;
+}
+
+
+/* NAV PROPERTY - START */
+.property1:hover {
+    background-image: linear-gradient(to right, #023f81, #021136);
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 38px;
+}
+.property1:active {
+    transition: 0.20s ease-in-out;
+    opacity: 0.7;
+}
+
+.property2:hover {
+    background-image: linear-gradient(to right, #023f81, #021136);
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 38px;
+}
+.property2:active {
+    transition: 0.20s ease-in-out;
+    opacity: 0.7;
+}
+
+.property3:hover {
+    background-image: linear-gradient(to right, #023f81, #021136);
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 38px;
+}
+.property3:active {
+    transition: 0.20s ease-in-out;
+    opacity: 0.7;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* NAV PROPERTY - END */
+
+/* TEXT STYLING */
+.text {
+    position: relative;
+    left: 70px;
+    top: 30px;
+}
+
+.text1 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+
+.text2 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: #607FD1;
+}
+
+.text3 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    color: white;
+}
+
+.text4 {
+    font-family: "inter", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.tombol {
+    background-color: #607FD1;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 40px;
+    width: 150px;
+    height: 40px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.15s;
+}
+.tombol:hover {
+    opacity: 0.7;
+}
+.tombol:active {
+    opacity: 0.4;
+}
+/* TEXT STYLING : END */
+
+th {
+    text-align: center !important;
+    font-family: sans-serif;
+    font-size: 18px !important;
+}
+
+th, td {
+    text-align: center;
+}
+
+tbody {
+    font-size: 16px !important;
+}
+
+@media (max-width: 2560px) {
+    .text {
+        font-size: 50px !important;
+        margin-left: 260px !important;
+    }
+    .konten {
+        height: 500px !important;
+    }
+}
+
+@media (max-width: 1440px) {
+    .table {
+        font-size: 25px !important;
+    }
+    .text {
+        font-size: 45px !important;
+        margin-left: 160px !important;
+    }
+}
+
+@media (max-width: 1024px) {
+    .text {
+        font-size: 35px !important;
+        margin-left: 120px !important;
+    }
+    .konten {
+        height: 400px !important;
+    }
+
+    button {
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .text {
+        font-size: 20px !important;
+        margin-left: 90px !important;
+    }
+    .konten {
+        height: 400px !important;
+    }
+
+    button {
+        width: 80px !important;
+    }
+}
+
+@media (max-width: 610px) {
+    .text {
+        font-size: 20px !important;
+        margin-left: 90px !important;
+    }
+    .konten {
+        height: 400px !important;
+    }
+
+    button {
+        width: 70px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    .text {
+        font-size: 25px !important;
+        margin-left: 90px !important;
+    }
+    .konten {
+        height: 400px !important;
+    }
+
+    button {
+        width: 60px !important;
+    }
+}
+
+@media (max-width: 425px) {
+    .text {
+        font-size: 22px !important;
+        margin-left: 60px !important;
+    }
+    .konten {
+        height: 400px !important;
+    }
+
+    button {
+        width: 60px !important;
+    }
+}
+
+/* RESPONSIVE 1 */
+@media (max-width: 1199px) {
+    .container {
+        height: 470px;
+    }
+    .text {
+        position: relative;
+        left: 50px;
+        top: 15px;
+    }
+    .text1 {
+        font-size: 65px;
+    }
+    .text2 {
+        font-size: 65px;
+    }
+    .text3 {
+        font-size: 65px;
+    }
+    .text4 {
+        font-size: 17px;
+    }
+    .tombol {
+        width: 150px;
+        height: 40px;
+    }
+    .image {
+        width: 250px;
+        position: relative;
+        bottom: 20px;
+    }
+}
+/* RESPONSIVE 1 : END*/
+
+
+/* RESPONSIVE 2 */
+@media (max-width: 1024px) {
+    .container {
+        height: 450px;
+    }
+    .text{
+        position: relative;
+        top: 8px;
+    }
+    .text1 {
+        font-size: 60px;
+    }
+    .text2 {
+        font-size: 60px;
+    }
+    .text3 {
+        font-size: 60px;
+    }
+    .text4 {
+        font-size: 15px;
+    }
+    .tombol {
+        width: 150px;
+        height: 40px;
+    }
+    .image {
+        width: 200px;
+        position: relative;
+        right: 20px;
+        bottom: 20px;
+    }
+}
+/* RESPONSIVE 2 : END*/
+
+
+/* RESPONSIVE 3 */
+@media (max-width: 991px) {
+    .container {
+        height: 450px;
+    }
+    .collapse {
+        width: auto;
+        background-color: rgb(67, 67, 67);
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    /* 11111 */
+    .property1 {
+        position: relative;
+        right: 20px;
+    }
+    .property2 {
+        position: relative;
+        right: 17px;
+    }
+    .property3 {
+        position: relative;
+        right: 9px;
+    }
+    .property4 {
+        position: relative;
+        right: 6px;
+    }
+    .property5 {
+        position: relative;
+        top: 20px;
+        color: white;
+    }
+    /* 11111 */
+
+    .text {
+        position: relative;
+        top: 4px;
+    }
+    .text1 {
+        font-size: 42px;
+    }
+    .text2 {
+        font-size: 42px;
+    }
+    .text3 {
+        font-size: 42px;
+    }
+    .text4 {
+        font-size: 15px;
+        position: relative;
+        left: 48px;
+        bottom: 100px;
+    }
+    .tombol {
+        width: 140px;
+        height: 40px;
+        position: relative;
+        right: 27px;
+        top: 340px;
+    }
+    .image {
+        width: 150px;
+        position: relative;
+        right: 50px;
+        bottom: 50px;
+    }
+}
+/* RESPONSIVE 3 : END */
+
+
+/* RESPONSIVE 4 */
+@media (max-width: 768px) {
+    .container {
+        height: 400px;
+    }
+
+    .collapse {
+        width: auto;
+        background-color: rgb(67, 67, 67);
+        border: none;
+        border-radius: 5px;
+
+    }
+
+    /* 11111 */
+    .property1 {
+        position: relative;
+        right: 20px;
+    }
+    .property2 {
+        position: relative;
+        right: 17px;
+    }
+    .property3 {
+        position: relative;
+        right: 9px;
+    }
+    .property4 {
+        position: relative;
+        right: 6px;
+    }
+    .property5 {
+        position: relative;
+        top: 20px;
+        color: white;
+    }
+    /* 11111 */
+
+    .text {
+        position: relative;
+        top: 4px;
+    }
+    .text1 {
+        font-size: 42px;
+    }
+    .text2 {
+        font-size: 42px;
+    }
+    .text3 {
+        font-size: 42px;
+    }
+    .text4 {
+        font-size: 15px;
+        position: relative;
+        left: 48px;
+        bottom: 100px;
+    }
+    .tombol {
+        width: 140px;
+        height: 40px;
+        position: relative;
+        right: 27px;
+        top: 340px;
+    }
+    .image {
+        width: 150px;
+        position: relative;
+        right: 50px;
+        bottom: 50px;
+    }
+}
+/* RESPONSIVE 4 : END */
+
+
+/* RESPONSIVE 5 */
+@media (max-width: 767px) {
+    .container {
+        height: 680px;
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 5px;
+        width: auto;
+    }
+    .text1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        position: relative;
+        bottom: 100px;
+    }
+    .text2 {
+        display: flex;
+        font-size: 30px;
+        position: relative;
+        bottom: 100px;
+        margin: 5px;
+    }
+    .text3 {
+        font-size: 30px;
+        position: relative;
+        bottom: 100px;
+    }
+    .text4 {
+        font-size: 12px;
+        position: relative;
+        left: 48px;
+        bottom: 130px;
+    }
+    .tombol {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        right: 139px;
+        top: 320px;
+    }
+    .image {
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 110px;
+        right: 225px;
+
+    }
+}
+/* RESPONSIVE 5 : END */
+
+
+/* RESPONSIVE 6 */
+@media (max-width: 547px) {
+    .container {
+        height: 710px;
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 5px;
+        width: auto;
+    }
+    .text1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        position: relative;
+        bottom: 80px;
+    }
+    .text2 {
+        display: flex;
+        font-size: 30px;
+        position: relative;
+        bottom: 80px;
+        margin: 5px;
+    }
+    .text3 {
+        font-size: 30px;
+        position: relative;
+        bottom: 80px;
+    }
+    .text4 {
+        font-size: 13px;
+        position: relative;
+        left: 48px;
+        bottom: 100px;
+    }
+    .tombol {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        right: 144px;
+        top: 340px;
+    }
+    .image {
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 165px;
+        right: 218px;
+    }
+}
+/* RESPONSIVE 6 : END */
+
+/* RESPONSIVE 7 */
+@media (max-width: 547px) {
+    .container {
+        height: 720px;
+    }
+    .text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 5px;
+        width: auto;
+    }
+    .text1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+    .text2 {
+        display: flex;
+        font-size: 30px;
+        position: relative;
+        bottom: 75px;
+        margin: 5px;
+    }
+    .text3 {
+        font-size: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+    .text4 {
+        font-size: 13px;
+        position: relative;
+        left: 1px;
+        bottom: 65px;
+    }
+    .tombol {
+        width: 100px;
+        height: 50px;
+        position: relative;
+        right: -4px;
+        top: 345px;
+    }
+    .image {
+        width: 100px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 165px;
+        right: 208px;
+    }
+}
+/* RESPONSIVE 7 : END */
+
+
+/* RESPONSIVE 8 */
+@media (max-width: 425px) {
+    .container {
+        height: 720px;
+    }
+    .text {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+    .text1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        position: relative;
+        bottom: 75px;
+        right: 30px;
+    }
+    .text2 {
+        display: flex;
+        font-size: 25px;
+        position: relative;
+        bottom: 75px;
+        right: 30px;
+        margin: 10px;
+    }
+    .text3 {
+        font-size: 25px;
+        position: relative;
+        bottom: 75px;
+        right: 30px;
+    }
+    .text4 {
+        font-size: 13px;
+        position: relative;
+        left: -28px;
+        bottom: 65px;
+    }
+    .tombol {
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        position: relative;
+        right: 28px;
+        top: 350px;
+    }
+    .image {
+        width: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 150px;
+        right: 222px;
+    }
+}
+/* RESPONSIVE 8 : END */
+
+
+/* RESPONSIVE 9 */
+@media (max-width: 375px) {
+    .container {
+        height: 720px;
+    }
+    .text {
+        display: flex;
+        flex-direction: row;
+        font-size: 30px;
+        position: relative;
+        bottom: 75px;
+    }
+    .text1 {
+        display: flex;
+        flex-direction: row;
+        font-size: 25px;
+        position: relative;
+        bottom: 75px;
+        right: 30px;
+    }
+    .text2 {
+        display: flex;
+        font-size: 25px;
+        position: relative;
+        bottom: 75px;
+        right: 30px;
+        margin: 10px;
+    }
+    .text3 {
+        font-size: 25px;
+        position: relative;
+        bottom: 75px;
+        right: 30px;
+    }
+    .text4 {
+        font-size: 10px;
+        position: relative;
+        left: -28px;
+        bottom: 65px;
+    }
+    .tombol {
+        width: 150px;
+        height: 60px;
+        font-size: 18px;
+        position: relative;
+        right: 28px;
+        top: 350px;
+    }
+    .image {
+        width: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        top: 150px;
+        right: 195px;
+    }
+}
+
+.desc {
+
+    width: 400px;
+
+}
+/* RESPONSIVE 9 : END */
+
+
+
+
