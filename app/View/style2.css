@@ -1,0 +1,140 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.background {
+    background-color: rgb(6, 6, 25);
+}
+
+.apalah {
+   margin-top: 20px; 
+}
+
+.logo {
+    width: 120px;
+    margin-left: 28px;
+}
+
+.info2:hover {
+    transition: 0.30s ease-in-out;
+}
+
+.info3:hover {
+    transition: 0.30s ease-in-out;
+}
+
+.info4 {
+    transition: 0.30s ease-in-out;
+}
+
+.info5:hover {
+    opacity: 0.8;
+    transition: 0.15s;
+}
+
+
+/* NAV PROPERTY - START */
+.property1:hover {
+    background-image: linear-gradient(to right, #023f81, #021136);
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 38px;
+}
+.property1:active {
+    transition: 0.20s ease-in-out;
+    opacity: 0.7;
+}
+
+.property2:hover {
+    background-image: linear-gradient(to right, #023f81, #021136);
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 38px;
+}
+.property2:active {
+    transition: 0.20s ease-in-out;
+    opacity: 0.7;
+}
+
+.property3:hover {
+    background-image: linear-gradient(to right, #023f81, #021136);
+    border-radius: 12px;
+    border: none;
+    width: 100px;
+    height: 38px;
+}
+.property3:active {
+    transition: 0.20s ease-in-out;
+    opacity: 0.7;
+}
+
+.icon {
+    font-size: 30px;
+    margin-right: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    overflow-x: scroll;
+    white-space: nowrap;
+    line-height: 0;
+}
+/* NAV PROPERTY - END*/
+
+@media (max-width: 1440px) {
+    .foto {
+        position: relative;
+        left: 45px;
+    }
+ }
+
+@media (max-width: 1024px) {
+    .foto {
+        position: relative;
+        left: -1px;
+    }
+}
+
+@media (max-width: 768px) {
+    .foto {
+        position: relative;
+        left: -0px;
+    }
+
+    .collapse {
+        width: auto;
+        background-color: rgb(67, 67, 67);
+        border: none;
+        border-radius: 5px;
+        
+    }
+
+    /* 11111 */
+    .property1 {
+         position: relative;
+         right: 20px;
+    }
+    .property2 {
+        position: relative;
+        right: 17px;
+    }
+    .property3 {
+        position: relative;
+        right: 9px;
+    }
+    .property4 {
+        position: relative;
+        right: 6px;
+    }
+    .property5 {
+        position: relative;
+        top: 20px;
+        color: white;
+    }
+}

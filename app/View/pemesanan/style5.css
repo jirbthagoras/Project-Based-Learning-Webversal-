@@ -1,0 +1,192 @@
+*,
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 120px;
+    margin-left: 28px;
+    position: relative;
+    top: 20px;
+  }
+
+  .tombol-1:hover, .tombol-1:focus, .tombol-1:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: none !important;
+  }
+
+  .tombol-2:hover, .tombol-2:focus, .tombol-2:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: none !important;
+  }
+
+  .tombol-3:hover, .tombol-3:focus, .tombol-3:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: none !important;
+  }
+
+  .tombol-4:hover, .tombol-4:focus, .tombol-4:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: none !important;
+  }
+
+  .tombol-5:hover, .tombol-5:focus, .tombol-5:active{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-image: none !important;
+  }
+
+@media  (max-width: 2560px) {
+    .title {
+      margin-left: 500px !important;
+    }
+    .isi-1 {
+      font-size: 25px !important;
+    }
+    .tombol-1 a {
+      width: 300px !important;
+      height: 80px !important;
+      font-size: 20px !important;
+    }
+    .tombol {
+      margin-right: 30px !important;
+    }
+    hr {
+      top: 50px !important;
+    }
+  }
+
+@media  (max-width: 1440px) {
+    .title {
+      margin-left: 280px !important;
+      font-size: 30px !important;
+    }
+    .isi-1 {
+      font-size: 18px !important;
+    }
+    .tombol-1 a {
+      width: 200px !important;
+      height: 60px !important;
+      font-size: 14px !important;
+    }
+    .tombol {
+      margin-right: 30px !important;
+      top: 130px !important;
+    }
+  }
+
+@media  (max-width: 1024px) {
+    .title {
+      margin-left: 200px !important;
+      font-size: 28px !important;
+    }
+    .isi-1 {
+      font-size: 18px !important;
+    }
+    .tombol-1 a {
+      width: 160px !important;
+      height: 50px !important;
+      font-size: 14px !important;
+    }
+    .tombol {
+      margin-right: 20px !important;
+      top: 130px;
+    }
+  }
+
+@media  (max-width: 768px) {
+  .title {
+    margin-left: 140px !important;
+    font-size: 25px !important;
+    }
+  .isi-1 {
+    font-size: 18px !important;
+    }
+  .tombol-1 a {
+    width: 160px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    }
+  .tombol {
+    margin-right: 10px !important;
+    top: 130px;
+    }
+  }
+
+  @media  (max-width: 451px) {
+  .title {
+    margin-left: 100px !important;
+    font-size: 20px !important;
+    }
+  .isi-1 {
+    font-size: 15px !important;
+    }
+  .tombol-1 a {
+    width: 130px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    }
+  .tombol {
+    margin-left: 18px !important;
+    top: 130px;
+    }
+  hr {
+    width: 180px !important;
+  }
+}
+  
+@media  (max-width: 390px) {
+  .title {
+    margin-left: 80px !important;
+    font-size: 18px !important;
+    }
+  .isi-1 {
+    font-size: 15px !important;
+    }
+  .tombol-1 a {
+    width: 130px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    }
+  .tombol {
+    margin-left: 18px !important;
+    top: 130px;
+    }
+  hr {
+    width: 150px !important;
+  }
+}
+@media  (max-width: 341px) {
+  .title {
+    margin-left: 80px !important;
+    font-size: 18px !important;
+    }
+  .isi-1 {
+    font-size: 15px !important;
+    }
+  .tombol-1 a {
+    width: 130px !important;
+    height: 50px !important;
+    font-size: 14px !important;
+    }
+  .tombol {
+    margin-left: 18px !important;
+    top: 130px;
+    }
+  hr {
+    width: 130px !important;
+  }
+}
+
+
